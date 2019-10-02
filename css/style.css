@@ -1,6 +1,9 @@
+
+
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
-	color: #333;
+	background-image: url('../images/mt.jpg');
+	background-size: 100%;
+	
 }
 
 a {
@@ -18,22 +21,24 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
+	font-size:40px;
+	font-family:helvetica;
 }
 
 header h1 {
 	padding: 40px 60px;
+	text-align:center;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 nav li { padding: 10px 10px; }
 nav a { color: BlanchedAlmond; }
@@ -42,7 +47,7 @@ nav a:hover { color: white; }
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
@@ -52,7 +57,7 @@ section {
 }
 
 section ul, aside ul {
-	list-style-type: square;
+	list-style-type: circle;
 	margin-top: 20px; 
 	margin-left: 30px;
 }
@@ -65,6 +70,7 @@ aside {
 
 /* Footer styles */
 footer { 
+	font-family:helvetica;
 	background-color: #000;
 	color: white;
 	text-align: center;
