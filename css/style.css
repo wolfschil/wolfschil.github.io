@@ -8,7 +8,9 @@ body {
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: yellow;
+	font-size: 100px;
+	font-family: sans-serif;
 }
 
 a:hover { color: Tomato; }
@@ -26,6 +28,10 @@ header {
 	margin-top: 60px;
 	font-size:40px;
 	font-family:helvetica;
+	align-content: right;
+	display: block;
+	justify-content: right;
+	margin-right: 1px;
 }
 
 header h1 {
@@ -63,6 +69,10 @@ section ul, aside ul {
 	color: #fff;
 }
 
+h1{
+	color: white; 
+	align-content: right;
+}
 
 aside {
 	padding: 40px 10px;
@@ -78,3 +88,15 @@ footer {
 	text-align: center;
  }
  footer p { padding: 20px; }
+
+header{
+mar
+}
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+
