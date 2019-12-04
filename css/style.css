@@ -92,7 +92,23 @@ footer {
 header{
 mar
 }
-
+.color{
+	position: absolute;
+	background-color: yellow;
+	padding:40px;
+	padding-right: 250px;
+	bottom: 70px;
+	z-index: -1;
+}
+.color2{
+	position: absolute;
+	background-color: #472b62;
+	padding:40px;
+	padding-bottom: 250px;
+	top: 20px;
+	right: 200px;
+	z-index: -1;
+}
 
 body {
     background-color: #fff;
